@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-size:24px; */
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(115deg,rgba(94, 95, 204, 0.767),rgba(94, 64, 202, 0.753)),url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+    
+}
+#heading{
+    text-align: center;
+    font-family:sans-serif ;
+    margin-top: 50px;
+}
+#heading h1{
+    font-weight: 300;
+    margin-bottom: 3px;
+    font-size: 40px;
+    color: whitesmoke;
+}
+#heading p{
+  margin-top: 0;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  word-spacing: 2px;
+  color: white;
+  word-wrap: break-word;
+}
+#form-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#item{
+    width:750px;
+    height: auto;
+    padding:10px 40px;
+    background-color: rgba(14, 1, 46, 0.747);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:756px){
+    #item{
+        width: 600px;
+    }
+}
+#name1{
+    margin-top: 20px;
+}
+.name{
+    margin: 0;
+}
+input,select,textarea{
+    width: 100%;
+    padding:10px;
+    margin-bottom: 20px;
+}
+input:focus,textarea:focus{
+    
+    outline: 3px solid blue;
+}
+.radio{
+  margin-bottom:10px ;
+
+}
+#radio{
+    margin-bottom: 30px;
+}
+#selectItem{
+   font-size: 20px;
+   outline: 0;
+}
+#selectItem2{
+    font-size: 20px;
+   outline: 0;
+}
+.those{
+    padding-top: 30px;
+}
+label{
+    color: white;
+    font-size: 25px;
+}
+.radio {
+    width:20px;
+   height: 1.5em;  
+}
+.selected{
+    color: rgb(194, 188, 188);
+}
+.checkboxs{
+    width: 20px;
+    height: 1.3em;
+    margin-bottom: 13px;
+}
+#submit{
+    font-size: 20px;
+    background-color: rgb(41, 173, 41);
+}
+#check{
+    font-size: large;
+}
+#checkbox{
+    margin-bottom: 30px;
+}
+#button{
+    width: 100%;
+    padding: 10px;
+    font-size: larger;
+    background: rgb(23, 155, 34);
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+#button:focus{
+    border: 2px solid blue;
+    
+}
